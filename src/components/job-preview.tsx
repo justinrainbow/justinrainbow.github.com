@@ -58,6 +58,7 @@ export const JobPreviewFragment = graphql`
 
   fragment CompanyInfo on ContentfulCompany {
     id
+    contentful_id
     slug
     name
   }

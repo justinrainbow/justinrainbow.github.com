@@ -7781,7 +7781,7 @@ export type ProjectInfoFragment = (
   & { childContentfulProjectDescriptionRichTextNode: Maybe<Pick<ContentfulProjectDescriptionRichTextNode, 'json'>> }
 );
 
-export type CompanyInfoFragment = Pick<ContentfulCompany, 'id' | 'slug' | 'name'>;
+export type CompanyInfoFragment = Pick<ContentfulCompany, 'id' | 'contentful_id' | 'slug' | 'name'>;
 
 export type BlogIndexQueryQueryVariables = {};
 
